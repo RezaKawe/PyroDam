@@ -17,7 +17,7 @@ from dotenv import load_dotenv
 load_dotenv("config.env")
 
 
-ALIVE_EMOJI = getenv("ALIVE_EMOJI", "🔥")
+ALIVE_EMOJI = getenv("ALIVE_EMOJI", "✨")
 ALIVE_LOGO = getenv("ALIVE_LOGO", "https://telegra.ph/file/0a9d95f154f377a9530cc.jpg")
 HELP_LOGO = getenv("HELP_LOGO", "https://telegra.ph/file/bc0cbf95ece5564dbcaa9.jpg")
 ALIVE_TEKS_CUSTOM = getenv("ALIVE_TEKS_CUSTOM", "Hi 👋, Dam alive.")
@@ -42,7 +42,10 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY", None)
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME", None)
 PMPERMIT_PIC = getenv("PMPERMIT_PIC", None)
 PM_AUTO_BAN = strtobool(getenv("PM_AUTO_BAN", "True"))
-
+GCAST_BL = getenv(
+    "GCAST_BL",
+    b64decode("aHR0cHM6Ly9naXRodWIuY29tL2RhYW1zeS9QeXJvRGFt").decode("utf-8"),
+)
 STRING_SESSION1 = getenv("STRING_SESSION1", "")
 STRING_SESSION2 = getenv("STRING_SESSION2", "")
 STRING_SESSION3 = getenv("STRING_SESSION3", "")
