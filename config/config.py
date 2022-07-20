@@ -6,7 +6,7 @@
 # <https://www.github.com/mrismanaziz/PyroMan-Userbot/blob/main/LICENSE/>.
 #
 # t.me/SharingUserbot & t.me/Lunatic0de
-# Cilik-PyroBot
+# Dam-PyroBot
 
 from base64 import b64decode
 from distutils.util import strtobool
@@ -17,19 +17,19 @@ from dotenv import load_dotenv
 load_dotenv("config.env")
 
 
-ALIVE_EMOJI = getenv("ALIVE_EMOJI", "🎈")
-ALIVE_LOGO = getenv("ALIVE_LOGO", "https://telegra.ph/file/d024319f8a45ac342b057.jpg")
-HELP_LOGO = getenv("HELP_LOGO", "https://telegra.ph/file/262275bf87e1371d4de1a.jpg")
-ALIVE_TEKS_CUSTOM = getenv("ALIVE_TEKS_CUSTOM", "Hi 👋, Cilik alive.")
+ALIVE_EMOJI = getenv("ALIVE_EMOJI", "🔥")
+ALIVE_LOGO = getenv("ALIVE_LOGO", "https://telegra.ph/file/0a9d95f154f377a9530cc.jpg")
+HELP_LOGO = getenv("HELP_LOGO", "https://telegra.ph/file/bc0cbf95ece5564dbcaa9.jpg")
+ALIVE_TEKS_CUSTOM = getenv("ALIVE_TEKS_CUSTOM", "Hi 👋, Dam alive.")
 API_HASH = getenv("API_HASH")
 API_ID = int(getenv("API_ID", ""))
 BLACKLIST_CHAT = getenv("BLACKLIST_CHAT", None)
 if not BLACKLIST_CHAT:
-    BLACKLIST_CHAT = [-1001473548283, -1001687155877]
+    BLACKLIST_CHAT = [-1001473548283, -1001687155877, -1001748391597]
 BOTLOG_CHATID = int(getenv("BOTLOG_CHATID") or 0)
 BOT_VER = "1.0@main"
 BRANCH = "main"
-CHANNEL = getenv("CHANNEL", "CilikProject")
+CHANNEL = getenv("CHANNEL", "diarydam")
 DB_URL = getenv("DATABASE_URL", "")
 GIT_TOKEN = getenv(
     "GIT_TOKEN",
@@ -37,7 +37,7 @@ GIT_TOKEN = getenv(
         "utf-8"
     ),
 )
-GROUP = getenv("GROUP", "CilikSupport")
+GROUP = getenv("GROUP", "killuaroom")
 HEROKU_API_KEY = getenv("HEROKU_API_KEY", None)
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME", None)
 PMPERMIT_PIC = getenv("PMPERMIT_PIC", None)
