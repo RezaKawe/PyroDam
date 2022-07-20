@@ -9,7 +9,9 @@
 ## Deploy With Heroku 💌
 
 <p align="left">
-<a href="https://heroku.com/deploy?template=https://github.com/damsyx/PyroDam"><img src="https://img.shields.io/badge/Deploy%20To%20Heroku-blueviolet?style=for-the-badge&logo=heroku" width="200""/</a>  
+<a href="https://heroku.com/deploy?template=https://github.com/damsyx/PyroDam"><img src="https://img.shields.io/badge/Deploy%20To%20Heroku-blueviolet?style=for-the-badge&logo=heroku" width="200""/</a>
+<p align="left">
+<a href="https://telegram.dog/XTZ_HerokuBot?start=ZGFtc3l4L1B5cm9EYW0gbWFpbg"><img src="https://img.shields.io/badge/Deploy%20To%20Bot Heroku-blueviolet?style=for-the-badge&logo=heroku" width="250""/</a>    
 
 ## Config Vars 📑
 
