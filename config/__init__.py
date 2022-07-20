@@ -1,3 +1,3 @@
-# Cilik-PyroBot
+# Dam-PyroBot
 
 from .config import *
