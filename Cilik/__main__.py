@@ -16,7 +16,7 @@ from Cilik import BOTLOG_CHATID, LOGGER, LOOP, aiosession, bots
 from Cilik.helpers.misc import git, heroku
 
 MSG_ON = """
-✅ **Reza-Ubot Activated.**
+✅ **Reza-Ubot sudah aktif anjing🔥.**
 
 **🏷️ Userbot Version -** `{}`
 **Ketik** `.rez` **untuk Mengecheck Bot**
@@ -40,10 +40,10 @@ async def main():
 
 
 if __name__ == "__main__":
-    LOGGER("Dam").info("Starting Rez-Ubot")
-    LOGGER("Dam").info(f"Total Clients = {len(bots)} Users")
+    LOGGER("Rez").info("Starting Rez-Ubot")
+    LOGGER("Rez").info(f"Total Clients = {len(bots)} Users")
     install()
     git()
     heroku()
-    LOGGER("Dam").info(f"Rez-Ubot v{BOT_VER} ⚙️[🔥 Activated 🔥]")
+    LOGGER("Rez").info(f"Rez-Ubot v{BOT_VER} ⚙️[🔥 Activated 🔥]")
     LOOP.run_until_complete(main())
