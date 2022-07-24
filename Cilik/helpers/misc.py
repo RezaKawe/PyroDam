@@ -6,7 +6,7 @@
 # Please see < https://github.com/TeamYukki/YukkiMusicBot/blob/master/LICENSE >
 #
 # All rights reserved.
-# Dam-PyroBot
+# Reza-PyroBot
 
 import asyncio
 import shlex
