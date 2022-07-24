@@ -1,3 +1,3 @@
-# Dam-PyroBot
+# Rez-PyroBot
 
 from .config import *
